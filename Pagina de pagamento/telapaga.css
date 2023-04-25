@@ -14,6 +14,13 @@ header {
     padding-left: 30px;
 }
 
+.logoo{
+    position: absolute;
+    margin-left: -151px;
+    margin-top: -16px;
+    transform: scale(0.4);
+}
+
 .marca {
     font-size: 24px;
 }
@@ -98,6 +105,28 @@ header {
 
 .cart-btn {
     color: #00b191;
+}
+
+.sair{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 15px;
+    right: 110px;
+}
+
+.sair-btn{
+    text-decoration: none;
+    border: 0;
+    width: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px #aeaeae;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #00b191;
 }
 
 /* --------------- CABEÇALHO (FIM) ---------------- */
@@ -357,6 +386,7 @@ header {
 /* --------------- NAVEGAÇÃO (FIM) ------------- */
 
 /* ------------ RODAPÉ (INÍCIO) ------------- */
+
 footer {
     background-color: #afafaf;
     color: white;
@@ -369,7 +399,9 @@ footer {
 
 #footer-section-1 {
     margin-left: 50px;
+    padding-top: 90;
 }
+
 
 #footer-marca {
     color: white;
@@ -452,5 +484,48 @@ footer i {
     padding-top: 5px;
 }
 
+.logo-footer{
+    position: absolute;
+    transform: scale(0.6);
+    margin-left: -55px;
+    margin-top: -62px;
+}
+
+.logo-footer{
+    position: absolute;
+    transform: scale(0.6);
+    margin-left: -45px;
+    margin-top: -70px;
+    
+}
+
+.div-central{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: center;
+
+}
+
+
+.footer-confirmacao{
+    background-color: #afafaf;
+    color: white;
+    height: 145px;
+    margin: 25px;
+    margin-left: 0px;
+    width: 1350px;
+    margin-top:435px;
+}
+
+.body-confirmacao{
+    background-color: #EEEDED;
+
+}
+.botaoconfirma{
+text-decoration: none;
+color: white;
+}
 /* -------------- RODAPÉ (FIM) -------------- */
 
